@@ -101,7 +101,7 @@ p {
         height: 60px;
     }
     
-    .skills p {
-        flex-basis: 100%;
+    .skill-items {
+        flex-direction: column;
     }
 }
