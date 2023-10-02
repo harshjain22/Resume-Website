@@ -1,0 +1,107 @@
+/* Apply styles to the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the main container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header section */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Style the main content */
+.content {
+    margin-top: 20px;
+}
+
+/* Style headings */
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Style horizontal lines */
+hr {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+/* Style lists */
+ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+/* Style links */
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style images */
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Style paragraphs */
+p {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* Style skills section */
+.skills {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* Style achievements section */
+.achievements ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.achievements li {
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 22px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .skills p {
+        flex-basis: 100%;
+    }
+}
